@@ -1,0 +1,27 @@
+
+Problem 4
+
+   A box with a square base is being built out of different materials.
+   The floor of the box needs to be strongest and is most expensive,
+   costing 48 cents a square foot.  The sides cost 8 cents a square foot
+   and the top costs 6 cents a square foot.  If the box must enclose
+   1728 cubic ft, what are the dimensions of the cheapest such box?
+
+
+Solution :
+
+
+   Cost = 48x^2 + 8*4xy + 6x^2 = 54x^2 + 32xy 
+
+   but x^2 y  =  1728, so y = 1728/x^2,
+
+   so  Cost = 54x^2 + 32x*1728/x^2 = 54x^2 + 32*1728/x
+
+   Cost' = 108x - 32*1728/x^2  = 0
+
+   so  108x = 32*1728/x^2
+
+   x^3 = 32*1728/108 = 8*1728/27
+
+   x = 2*12/3 = 8,  so y = 1728/8^2 = 27
+

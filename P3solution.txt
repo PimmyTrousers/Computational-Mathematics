@@ -1,0 +1,56 @@
+
+
+Problem 3
+
+   Use the definition of the derivative to compute
+
+
+      d        x
+     --    -----------
+     dx    x - sqrt(x)
+
+
+   Show all algebraic details.
+
+
+
+Solution :
+
+
+       w             x
+   ---------  -  ---------
+   w-sqrt(w)     x-sqrt(x)    wx - w sqrt(x) - wx + x sqrt(w)
+   -----------------------  = -------------------------------
+       w      -      x          (w-x)(w-sqrt(w))(x-sqrt(x))
+
+
+
+       - w sqrt(x) + x sqrt(w)        w sqrt(x) + x sqrt(w)
+  =  ---------------------------  *   ---------------------
+     (w-x)(w-sqrt(w))(x-sqrt(x))      w sqrt(x) + x sqrt(w)
+
+
+
+                     x^2 w  - w^2 x
+  =  ---------------------------------------------------
+     (w-x)(w-sqrt(w))(x-sqrt(x)) (w sqrt(x) + x sqrt(w))
+
+
+
+                        wx(x-w)
+  =  ---------------------------------------------------
+     (w-x)(w-sqrt(w))(x-sqrt(x)) (w sqrt(x) + x sqrt(w))
+
+
+
+                         -wx
+  =  ----------------------------------------------
+     (w-sqrt(w))(x-sqrt(x)) (w sqrt(x) + x sqrt(w))
+
+
+
+                 -x^2                               -x
+ ->  -----------------------------   =  ---------------------------
+     (x - sqrt(x))^2 * 2 x sqrt(x)      (x - sqrt(x))^2 * 2 sqrt(x)
+
+
